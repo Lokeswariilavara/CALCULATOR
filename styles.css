@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 25%;
+    height:25%;
+    background-color: aqua;
+    border: 2px solid;
+    margin:20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    row-gap: 20px;
+    align-items: center;
+    padding: 50px;
+}
+.container2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 2px solid;
+    position: relative;
+    left: 20px;
+
+}
